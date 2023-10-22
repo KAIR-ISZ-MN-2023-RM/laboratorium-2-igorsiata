@@ -25,7 +25,14 @@ def compare_plot(x1:np.ndarray,y1:np.ndarray,x2:np.ndarray,y2:np.ndarray,
     Returns:
     matplotlib.pyplot.figure: wykres zbiorów (x1,y1), (x2,y2) zgody z opisem z zadania 3 
     """
+    """my_plot = plt.gca()
+    my_plot.plot(x2, y2, 'b', label = label2)
+    my_plot.plot(x1 , y1, 'r', label = label1)
+    my_plot.set(xlabel=xlabel, ylabel=ylabel, title=title)
+    my_plot.legend()
+    return(2)"""
     return None
+
 
 def parallel_plot(x1:np.ndarray,y1:np.ndarray,x2:np.ndarray,y2:np.ndarray,
                   x1label:str,y1label:str,x2label:str,y2label:str,title:str,orientation:str):
